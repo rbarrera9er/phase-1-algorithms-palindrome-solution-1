@@ -1,6 +1,15 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  let reversed = word.split("").reverse().join(""); //variable will take string/word break it up, reverse the array and bring the array back together
+  if (reversed === word) return true; // verify if the word reversed is the same with boolean 
+  return false;
 }
+console.log("abba")
+console.log("racecar")
+console.log("a")
+console.log("robot")
+console.log("ab")
+
 
 /* 
   Add your pseudocode here
